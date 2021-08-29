@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    /* background: url(https://img4.thuthuatphanmem.vn/uploads/2020/05/13/hinh-nen-4k-dep_062610818.jpg) top center / cover no-repeat ; */
+    position: relative;
+}
+
+/* body */
+#main{
+    position: absolute;
+    width: 100%;
+}
+
+/* #header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+} */
+
+.search{
+    line-height: 100px;
+    width: 50%;
+    text-align: center;
+    outline: none;
+    color: #fff;
+}
+
+.search input{
+    border: 2px solid #fff;
+}
+
+.search-btn{
+    width: 65%;
+    padding: 8px;
+    border-radius: 20px;
+    background-color:transparent ;
+    border: 1px solid #fff;
+    padding-left: 30px;
+    outline: none;
+    color: #fff;
+}
+
+ul.navbar{
+    width: 50%;   
+    display: flex;
+    justify-content: space-around;
+}
+
+ul.navbar li.list-navbar{
+    line-height: 100px;
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+}
+
+ul.navbar li.list-navbar a{
+    color: #fff;
+}
+
+ul.navbar li.list-navbar a::after{
+    content: "";
+    height: 5px;
+    width: 0px;
+    bottom: 20px;
+    left: 0px;
+    background-color: rgb(252, 110, 110);
+    position: absolute;
+    transition: 0.3s ease-in-out;
+}
+
+ul.navbar li.list-navbar a:hover::after{
+    width: 50%;
+    transform: translate(100%);
+}
+
+ul.navbar li.list-navbar a:hover{
+    cursor: pointer;
+    color: rgb(255, 103, 103);
+}
+
+/* container */
+
+#container{
+    display: flex;
+    justify-content: space-between;
+    height: 470px;
+    color: #fff;
+}
+
+.heading-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+.heading-container .logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: url(https://scontent.fhan2-4.fna.fbcdn.net/v/t1.6435-9/179748222_786047295383856_108284335582512231_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=MpkQx2wNTmAAX-oMbDW&_nc_ht=scontent.fhan2-4.fna&oh=75c6246e181bbe6e5653d9634037c261&oe=6151CEDB) top center / cover no-repeat ;
+    padding:0 0 30px 100px ;
+    transition: 0.3s;
+}
+
+.heading-container .logo:hover{
+    transform: translateY(-8px);
+}
+
+.heading-container h1{
+    font-size: 50px;
+}
+
+.heading-container p{
+    font-size: 13px;
+}
+
+/* list-item */
+
+.list-tourist{
+    width: 50%;
+    display: flex;
+    padding:0 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.local-tourist__item{
+    width: 25%;
+    border-radius: 100px;
+    overflow: hidden;
+    margin-left: 5px;
+    transition: 0.3s;
+}
+
+.local-tourist__item:hover{
+    transform: translateY(-8px);
+}
+
+.local-tourist__item img{
+    width: 220px;
+    height: auto;
+}
+
+
+.item-first small {
+    padding: 15px 40px;
+    font-size: 11px;
+}
+
+.item-first h3 {
+    font-size: 15px;
+    padding: 20px;
+}
+
+ion-icon.md.hydrated {
+    padding-left: 40px;
+}
+
+
+#footer{
+    bottom: 0px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 10px;
+    color: #fff;
+}
+
+#footer a{
+    color: #f00;
+}

@@ -1,0 +1,109 @@
+/* pc */
+@media (min-width:1024px) {
+    body{
+        background: url(https://img4.thuthuatphanmem.vn/uploads/2020/05/13/hinh-nen-4k-dep_062610818.jpg) top center / cover no-repeat ;
+    }
+    #header{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1024px) {
+    body{
+        background: url(https://images.unsplash.com/photo-1516483638261-f4dbaf036963?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHRyYXZlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60) top center /cover  no-repeat ;
+        
+        
+    }
+    .search{
+        line-height: 100px;
+        width: 100%;
+    }
+    ul.navbar{
+        width: 100%;   
+    }
+    .item-first small {
+        padding: 10px 10px;
+        font-size: 11px;
+    }
+    .item-first h3 {
+        font-size: 13px;
+        padding: 10px;
+    }
+    
+    ion-icon.md.hydrated {
+        padding-left: 10px;
+    }
+    #footer p{
+        margin-top: 300px;
+    }
+ 
+}
+
+
+/* Mobile */
+@media (max-width:740px){
+    body{
+        background: url(https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHRyYXZlbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60)  no-repeat ;
+        
+        
+    }
+    #header{
+        width: 100%;
+        height: 100px;
+        flex-direction: column;
+    }
+
+    .search{
+        line-height: 50px;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    ul.navbar{
+        width: 100%;   
+    }
+
+    ul.navbar li.list-navbar{
+        font-size: 10px;
+    }
+
+    #container{
+        flex-direction: column;
+    }
+    .heading-container{
+        margin-top: 50px;
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .list-tourist{
+        width: 100%;
+    }
+    .local-tourist__item{
+        border-radius: 100px;
+        margin-left: -18px;
+    }
+    .local-tourist__item img{
+        width: 130px;
+    }
+    .item-first small {
+        padding: 10px 15px;
+        font-size: 9px;
+    }
+    .item-first h3 {
+        font-size: 9px;
+        padding: 10px;
+    }
+    ion-icon.md.hydrated {
+        padding-left: 10px;
+    }
+    #footer{
+        font-size: 7px;
+        margin-top: 20px;
+    }
+
+}
